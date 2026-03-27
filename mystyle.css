@@ -4,10 +4,13 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333333;
+    display: flex;
+  justify-content: space-around;
 }
 
 ul li {
   float: left;
+  
 }
 
 ul li a {
@@ -21,4 +24,6 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
-
+body{
+    background-image: url("images/fancy-pants.jpg");
+}
